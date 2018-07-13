@@ -25,8 +25,7 @@ setp2:对训练出来的词，计算其在语料库中idf词(python compute_idf.
 setp3:统计语料库中存在的句子(python get_sentence.py),生成file_sentece.txt文件;考虑计算量问题，本实验只取了出现频率最高的前10000个句子<br>
 setp4：运行python test.py，可对设定好的5个句子，按照不同的算法得出最相似的结果
 
-备注说明：./data/medfw.txt文件是我上个项目find-Chinese-medcial-words在同样语料库找出的词文件，本次作为用户词库参与jieba分词;<br>
-         similarity.py文件为四种算法实现的程序，可以调用，不同的环境下只需重新训练词向量和词的idf矩阵；<br>
+备注说明：./data/medfw.txt文件是我上个项目find-Chinese-medcial-words在同样语料库找出的词文件，本次作为用户词库参与jieba分词;similarity.py文件为四种算法实现的程序，可以调用，不同的环境下只需重新训练词向量和词的idf矩阵；./data/test_result.txt文件是本实验测试结果。<br>
 
 
 4 测试结果
