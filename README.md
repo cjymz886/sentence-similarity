@@ -13,6 +13,10 @@ numpy<br>
 
 2 算法原理
 =
+![image](https://github.com/cjymz886/sentence-similarity/raw/master/images/cosine.png)<br>
+![image](https://github.com/cjymz886/sentence-similarity/raw/master/images/idf.png)<br>
+![image](https://github.com/cjymz886/sentence-similarity/raw/master/images/bm25.png)<br>
+![image](https://github.com/cjymz886/sentence-similarity/raw/master/images/jaccard.png)<br>
 
 3 运行步骤
 
