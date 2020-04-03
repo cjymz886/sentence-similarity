@@ -29,8 +29,9 @@ class ComIdf(object):
     def com_idf(self,word):
         n = 0
         for _,line in enumerate(self.corpus_data):
-           n+=line.count(word)
-        idf=math.log(1.0*self.N/n+1)
+           if line.find(word) != -1:
+                n += 1
+        idf=math.log(1.0*self.N/(n+1))
         return {word:idf}
 
     def parts(self):
