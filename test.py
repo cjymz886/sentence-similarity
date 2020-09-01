@@ -29,7 +29,7 @@ def test():
         for r in dataset:
             top=sorted(dataset[r].items(),key=lambda x:x[1],reverse=True)
             result[r]=top[0]
-        with codecs.open('./data/test_result.txt','a') as f:
+        with codecs.open('./data/test_result.txt','a',encoding='utf-8') as f:
             f.write('--------------The result of %s method------------------\n '%model)
             f.write('\tThe computing cost %.3f seconds\n'% (time.time() - t1))
             f.write(json.dumps(result, ensure_ascii=False, indent=2, sort_keys=False))
